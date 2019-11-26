@@ -1,0 +1,232 @@
+{
+  "dance": [
+    {
+      "axis": "Every Hour",
+      "value": 0.588
+    },
+    {
+      "axis": "Selah",
+      "value": 0.482
+    },
+    {
+      "axis": "Follow God",
+      "value": 0.529
+    },
+    {
+      "axis": "Closed On Sunday",
+      "value": 0.799
+    },
+    {
+      "axis": "On God",
+      "value": 0.41
+    },
+    {
+      "axis": "Everything We Need",
+      "value": 0.894
+    },
+    {
+      "axis": "Water",
+      "value": 0.505
+    },
+    {
+      "axis": "God Is",
+      "value": 0.649
+    },
+    {
+      "axis": "Hands On",
+      "value": 0.514
+    },
+    {
+      "axis": "Use This Gospel",
+      "value": 0.611
+    },
+    {
+      "axis": "Jesus Is Lord",
+      "value": 0.243
+    }
+  ],
+  "energy": [
+    {
+      "axis": "Every Hour",
+      "value": 0.793
+    },
+    {
+      "axis": "Selah",
+      "value": 0.618
+    },
+    {
+      "axis": "Follow God",
+      "value": 0.9
+    },
+    {
+      "axis": "Closed On Sunday",
+      "value": 0.291
+    },
+    {
+      "axis": "On God",
+      "value": 0.886
+    },
+    {
+      "axis": "Everything We Need",
+      "value": 0.416
+    },
+    {
+      "axis": "Water",
+      "value": 0.281
+    },
+    {
+      "axis": "God Is",
+      "value": 0.634
+    },
+    {
+      "axis": "Hands On",
+      "value": 0.393
+    },
+    {
+      "axis": "Use This Gospel",
+      "value": 0.459
+    },
+    {
+      "axis": "Jesus Is Lord",
+      "value": 0.26
+    }
+  ],
+  "valence": [
+    {
+      "axis": "Every Hour",
+      "value": 0.694
+    },
+    {
+      "axis": "Selah",
+      "value": 0.146
+    },
+    {
+      "axis": "Follow God",
+      "value": 0.434
+    },
+    {
+      "axis": "Closed On Sunday",
+      "value": 0.406
+    },
+    {
+      "axis": "On God",
+      "value": 0.393
+    },
+    {
+      "axis": "Everything We Need",
+      "value": 0.463
+    },
+    {
+      "axis": "Water",
+      "value": 0.283
+    },
+    {
+      "axis": "God Is",
+      "value": 0.221
+    },
+    {
+      "axis": "Hands On",
+      "value": 0.598
+    },
+    {
+      "axis": "Use This Gospel",
+      "value": 0.177
+    },
+    {
+      "axis": "Jesus Is Lord",
+      "value": 0.327
+    }
+  ],
+  "tempo": [
+    {
+      "axis": "Every Hour",
+      "value": 76.997
+    },
+    {
+      "axis": "Selah",
+      "value": 90.076
+    },
+    {
+      "axis": "Follow God",
+      "value": 180.291
+    },
+    {
+      "axis": "Closed On Sunday",
+      "value": 97.984
+    },
+    {
+      "axis": "On God",
+      "value": 72.577
+    },
+    {
+      "axis": "Everything We Need",
+      "value": 116.96
+    },
+    {
+      "axis": "Water",
+      "value": 82.338
+    },
+    {
+      "axis": "God Is",
+      "value": 105.051
+    },
+    {
+      "axis": "Hands On",
+      "value": 78.039
+    },
+    {
+      "axis": "Use This Gospel",
+      "value": 148.28
+    },
+    {
+      "axis": "Jesus Is Lord",
+      "value": 76.61
+    }
+  ],
+  "duration": [
+    {
+      "axis": "Every Hour",
+      "value": 112239
+    },
+    {
+      "axis": "Selah",
+      "value": 164619
+    },
+    {
+      "axis": "Follow God",
+      "value": 104591
+    },
+    {
+      "axis": "Closed On Sunday",
+      "value": 151873
+    },
+    {
+      "axis": "On God",
+      "value": 136350
+    },
+    {
+      "axis": "Everything We Need",
+      "value": 116559
+    },
+    {
+      "axis": "Water",
+      "value": 168419
+    },
+    {
+      "axis": "God Is",
+      "value": 203141
+    },
+    {
+      "axis": "Hands On",
+      "value": 203174
+    },
+    {
+      "axis": "Use This Gospel",
+      "value": 213877
+    },
+    {
+      "axis": "Jesus Is Lord",
+      "value": 49292
+    }
+  ]
+}

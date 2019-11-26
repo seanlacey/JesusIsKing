@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Jesus Is King</title>
+        <script type="text/javascript" src="www/d3.min.js"></script>
+        <link rel="stylesheet" href="www/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="plotBox">
+            <svg height="600" width="600">
+                <defs>
+                    <mask id="centerCircle">
+                        <rect width="100%" height="100%" fill="#FFF" />
+                        <circle cx="300" cy="300" r="10" />
+                    </mask>
+                </defs>
+
+                <g class="vinyl">
+                    <circle cx="300" cy="300" r="300" fill="#0315AA" mask="url(#centerCircle)" />
+                    <circle cx="300" cy="300" r="130" fill="#0638D8" mask="url(#centerCircle)" />
+                    <circle cx="300" cy="300" r="90" fill="#062AC6" mask="url(#centerCircle)" />
+
+                    <!--Album Rings-->
+                    <g stroke="#000" stroke-opacity="0.15" fill="none" mask="url(#centerCircle)">
+                        <circle cx="300" cy="300" r="290" />
+                        <circle cx="300" cy="300" r="280" />
+                        <circle cx="300" cy="300" r="270" />
+                        <circle cx="300" cy="300" r="260" />
+                        <circle cx="300" cy="300" r="250" />
+                        <circle cx="300" cy="300" r="240" />
+                        <circle cx="300" cy="300" r="230" />
+                        <circle cx="300" cy="300" r="220" />
+                        <circle cx="300" cy="300" r="210" />
+                        <circle cx="300" cy="300" r="200" />
+                        <circle cx="300" cy="300" r="190" />
+                        <circle cx="300" cy="300" r="180" />
+                        <circle cx="300" cy="300" r="170" />
+                        <circle cx="300" cy="300" r="160" />
+                        <circle cx="300" cy="300" r="150" />
+                        <circle cx="300" cy="300" r="140" />
+                    </g>
+
+                    <!--Center Text-->
+                    <g>
+                        <text id="lyricText" font-family="Playfair Display" 
+                              font-size="1.1em" fill="#C5BD59"
+                              style="text-anchor: middle;"></text>
+                    </g>
+                </g>
+            </svg>
+
+            <div id="tooltip" class="hidden">
+                    <table>
+                        <tr>
+                            <td>Track Name:</td>
+                            <td id="tipName"></td>
+                        </tr>
+                        <tr>
+                            <td>Value:</td>
+                            <td id="tipValue"></td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+
+        <div id="rButtons">
+                <input type="radio" name="featureType" value="dance" checked="true"> Danceability
+                <input type="radio" name="featureType" value="energy"> Energy
+                <input type="radio" name="featureType" value="valence"> Valence
+                <input type="radio" name="featureType" value="tempo"> Tempo
+                <input type="radio" name="featureType" value="duration"> Duration
+        </div>
+
+        <script type="text/javascript" src="www/plot.js"></script>
+
+        <div id="info">
+            <table>
+                <tr>
+                    <td>Danceability:</td>
+                    <td>How suitable the track is for dancing. A value of 0 is least danceable and 1 is most danceable.</td>
+                </tr>
+                <tr>
+                    <td>Energy:</td>
+                    <td>How fast, loud, and noisy the track feels. A value of 0 is not energetic and 1 is extremely energetic.</td>
+                </tr>
+                <tr>
+                    <td>Valence:</td>
+                    <td>How positive the track is musically. A value of 0 is not positive at all and 1 is extremely positive.</td>
+                </tr>
+                <tr>
+                    <td>Tempo:</td>
+                    <td>Estimated speed or pace of the track in Beats Per Minute (BPM).</td>
+                </tr>
+                <tr>
+                    <td>Duration:</td>
+                    <td>Length of the track in minutes and seconds.</td>
+                </tr>
+            </table>
+        </div>
+		<footer>
+                <p>Track feature data from <a href="https://www.spotify.com">Spotify</a>. Lyrics from <a href="https://genius.com">Genius</a>.</p>
+                <p><a href="https://github.com/seanlacey/JesusIsKing">Github Repository</a></p>
+                <p><a href="https://www.slacey.net">Return Home</a></p> 
+            </footer>
+    </body>
+</html>
